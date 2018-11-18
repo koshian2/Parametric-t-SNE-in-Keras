@@ -72,7 +72,7 @@ class TSNE:
         P_batch = cls.x2p(X_batch)
         P_batch[np.isnan(P_batch)] = 0
         P_batch = P_batch + P_batch.T
-        P_batch = P_batch / P_batch.sum()
+        P_batch = P_batch / (P_batch.sum()+1e-14)
         P_batch = np.maximum(P_batch, 1e-12)
         return P_batch
 
