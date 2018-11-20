@@ -8,3 +8,7 @@ I used [the python implementation of t-SNE](https://lvdmaaten.github.io/tsne/cod
 ## Note
 This project was forked from [zaburo-ch/Parametric-t-SNE-in-Keras](https://github.com/zaburo-ch/Parametric-t-SNE-in-Keras).   
 The original version is Python 2, but it works with Python 3.
+
+## Theoretical Explanation
+Parametric t-SNEの理論とKerasによる実装  
+[https://qiita.com/koshian2/items/7aab45dafbdbd959d8fc](https://qiita.com/koshian2/items/7aab45dafbdbd959d8fc)
